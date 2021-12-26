@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "types": [
+      "@nuxt/types",
+      "nuxt-webfontloader",
+      "@nuxtjs/vuetify",
+      "@nuxtjs/dayjs",
+      "cookie-universal-nuxt"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"],
+      "~~/*": ["./*"],
+      "@@/*": ["./*"]
+    }
+  },
+  "exclude": ["node_modules", ".nuxt", "dist"]
+}

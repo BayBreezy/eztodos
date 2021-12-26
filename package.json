@@ -1,0 +1,33 @@
+{
+  "name": "eztodos",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/types": "^2.15.8",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/dayjs": "^1.4.1",
+    "@nuxtjs/pwa": "^3.3.5",
+    "cookie-universal-nuxt": "^2.1.5",
+    "core-js": "^3.15.1",
+    "firebase": "^9.6.1",
+    "nuxt": "^2.15.7",
+    "nuxt-webfontloader": "^1.1.0",
+    "vuetify": "^2.5.5"
+  },
+  "author": {
+    "name": "Behon Baker",
+    "email": "behon.baker@yahoo.com",
+    "url": "https://behonbaker.com/"
+  },
+  "description": "Simple app used to list tasks. It helps to get the damn thing done.",
+  "homepage": "https://eztodos.herokuapp.com/",
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.12.1"
+  }
+}

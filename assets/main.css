@@ -1,0 +1,68 @@
+.el {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.09) !important;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.2s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.ribbon {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.ribbon::before,
+.ribbon::after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  display: block;
+  border: 5px solid #e2e2e2;
+}
+.ribbon span {
+  position: absolute;
+  display: block;
+  width: 225px;
+  padding: 7px 0;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
+  /* color: #fff; */
+  font: 500 10px/1 "Quicksand", sans-serif;
+  /* text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); */
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* top right*/
+.ribbon-top-right {
+  top: -2px;
+  right: -2px;
+}
+.ribbon-top-right::before,
+.ribbon-top-right::after {
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+.ribbon-top-right::before {
+  top: 0;
+  left: 15px;
+}
+.ribbon-top-right::after {
+  bottom: 15px;
+  right: 0;
+}
+.ribbon-top-right span {
+  left: -10px;
+  top: 29px;
+  transform: rotate(45deg);
+}
